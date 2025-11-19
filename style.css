@@ -356,24 +356,35 @@ footer#contato {
     overflow: hidden; 
     position: relative;
     border-top: 4px solid var(--cor-secundaria);
+    height: 400px;
 }
 
 .carousel-track {
     display: flex; 
     transition: transform 0.5s ease-in-out; 
+    height: 100%; 
 }
 
 .carousel-slide {
     min-width: 100%; 
     box-sizing: border-box;
     flex-shrink: 0; 
+    height: 100%; 
 }
 
 .carousel-slide img {
     width: 100%;
-    height: auto;
+    height: 100%; 
     display: block;
-    object-fit: cover;
+    object-fit: cover; 
+}
+
+
+/* Ajuste pra a tela do celular para n ficar desproporcional */
+@media (max-width: 600px) {
+    .carousel-container {
+        height: 200px; 
+    }
 }
 
 /* Estilos dos Pontos de Navegação (Dots) */
