@@ -357,8 +357,8 @@ footer#contato {
     position: relative; 
     border-top: 4px solid var(--cor-secundaria);
     
-    /* 1. Definindo uma altura fixa para desktop/telas maiores */
-    height: 400px; 
+    /* 1. AUMENTE ESTE VALOR para notebooks/desktops */
+    height: 450px; /* Ou 500px, dependendo de como as imagens ficam melhores */
 }
 
 .carousel-track {
@@ -395,7 +395,7 @@ footer#contato {
 /* Media Query para ajuste em dispositivos móveis (Celulares) */
 @media (max-width: 600px) {
     .carousel-container {
-        /* 2. Redefinindo a altura para celular (deve resolver o problema do espaço em branco) */
+        /* A altura para celular (200px) deve permanecer, pois você disse que ficou bom. */
         height: 200px; 
     }
 }
