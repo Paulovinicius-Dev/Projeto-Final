@@ -46,5 +46,4 @@ Para visualizar e testar o projeto em seu ambiente local ou via GitHub Pages, si
 
 ### 1. Clique no Link abaixo 
 
-```bash
-[Link do site: https://paulovinicius-dev.github.io/Projeto-Final/
+url:https://paulovinicius-dev.github.io/Projeto-Final-Mengo-Fit/
