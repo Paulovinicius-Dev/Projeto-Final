@@ -46,7 +46,5 @@ Para visualizar e testar o projeto em seu ambiente local ou via GitHub Pages, si
 
 ### 1. Clique no Link abaixo 
 
-Link para o site: 
-
 ```bash
 [Link do site: https://paulovinicius-dev.github.io/Projeto-Final/
